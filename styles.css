@@ -40,6 +40,25 @@ p {
   font-weight: 400;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 12px 32px;
+  background: linear-gradient(135deg, #b5ead7, #c7ceea);
+  color: #5a7a6e;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
 @keyframes subir {
   from {
     opacity: 0;
